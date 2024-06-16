@@ -10,6 +10,8 @@
 
 /*=============== SWIPER CATEGORIES ===============*/
 var swiperCategories = new Swiper('.categories__container', {
+  spaceBetween: 24,
+  loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
